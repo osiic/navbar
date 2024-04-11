@@ -20,12 +20,18 @@ nav {
 }
 
 a {
+  text-decoration: none;
+  color: black;
   padding: 4px 8px;
+  transition: 300ms;
 }
 
-a:active,
-a:hover,
 .aktif {
+  background: black;
+  color: white;
+}
+
+a:hover {
   background: #aaa;
 }
 
